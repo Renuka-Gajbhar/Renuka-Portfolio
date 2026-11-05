@@ -158,3 +158,132 @@ Through Week 1 and Week 2, I learned how to:
 - LinkedIn: https://linkedin.com/in/renuka-gajbhar-768a09319
 
 ---
+
+# Interactive Portfolio Website
+
+## Project Overview
+
+The **Interactive Portfolio Website** is a personal portfolio developed to showcase my profile, technical skills, projects, and professional achievements.
+
+This project is part of **Week 3: JavaScript – Making Websites Interactive**. The main objective is to make my existing portfolio more interactive and user-friendly using JavaScript.
+
+## About Me
+
+Hi, I'm **Renuka Gajbhar**, a final-year Bachelor of Computer Science (BCS) student at MIT College of CS and IT, Basmath.
+
+I am passionate about Java programming, web development, and software engineering. I enjoy developing practical projects and continuously improving my technical skills.
+
+## Technologies Used
+
+- HTML5 – Website structure
+- CSS3 – Styling and responsive design
+- JavaScript – Interactive functionality
+- DOM Manipulation – Dynamic content updates
+- Local Storage – Saving user preferences
+
+## Features
+
+### Existing Portfolio Features
+- Home section with introduction
+- About Me section
+- Technical Skills section
+- Featured Projects section
+- Contact section
+- LinkedIn and GitHub profile links
+- Resume download link
+- Responsive layout
+- Purple glass-style user interface
+
+### JavaScript Features
+- Contact form validation with error messages
+- Interactive dark/light mode toggle
+- Dynamic content updates using DOM manipulation
+- Event handling using click, input, and submit events
+- Show/hide content functionality
+- Local Storage to save user preferences
+
+## Project Structure
+
+```text
+Interactive-Portfolio/
+│
+├── index.html
+├── style.css
+├── script.js
+├── README.md
+│
+└── images/
+    └── profile.png
+```
+
+## JavaScript Implementation
+
+JavaScript is used to make the portfolio interactive.
+
+The `script.js` file contains reusable functions for:
+
+1. Form Validation – Checks user input and displays appropriate error messages.
+2. Dark Mode – Allows users to switch between light and dark themes.
+3. DOM Manipulation – Updates website content dynamically.
+4. Event Listeners – Handles user interactions.
+5. Local Storage – Saves the selected theme preference.
+
+## Form Validation Logic
+
+The contact form validates the following fields:
+
+- Name must not be empty.
+- Email must be in a valid format.
+- Message must contain at least 10 characters.
+- Error messages are displayed when the input is invalid.
+- A success message is displayed when all validations pass.
+
+## Setup Instructions
+
+Follow these steps to run the project:
+
+1. Clone the GitHub repository.
+2. Open the project folder in Visual Studio Code.
+3. Make sure `index.html`, `style.css`, and `script.js` are in the same folder.
+4. Check that the profile image is available inside the `images` folder.
+5. Open `index.html` in your browser.
+6. Test the interactive features.
+
+## Testing
+
+The following test cases are used to check the website:
+
+| Test Case | Expected Result |
+|---|---|
+| Open portfolio | Website loads successfully |
+| Click navigation links | Opens the selected section |
+| Enter invalid email | Displays an error |
+| Submit empty form | Displays validation messages |
+| Toggle dark mode | Theme changes |
+| Refresh the page | Saved theme preference remains |
+
+## Learning Outcomes
+
+Through this project, I learned:
+
+- JavaScript fundamentals.
+- DOM selection and manipulation.
+- Functions and event handling.
+- Form validation.
+- Working with Local Storage.
+- Debugging using browser developer tools.
+- Creating interactive web experiences.
+
+## GitHub Repository
+
+[View My Portfolio Repository](https://github.com/Renuka-Gajbhar/Renuka-Portfolio)
+
+## Author
+
+**Renuka Gajbhar**
+
+- GitHub: [Renuka-Gajbhar](https://github.com/Renuka-Gajbhar)
+- LinkedIn: [Connect with me](https://linkedin.com/in/renuka-gajbhar-768a09319)
+
+---
+

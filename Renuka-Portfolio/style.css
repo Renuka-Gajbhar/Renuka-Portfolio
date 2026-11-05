@@ -887,3 +887,163 @@ textarea:focus-visible {
         transition-duration: 0.01ms !important;
     }
 }
+
+
+/* ========================================
+   DARK / LIGHT MODE
+======================================== */
+
+/* Theme button */
+
+#theme-toggle {
+    padding: 9px 14px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    background: #7c3aed;
+    color: white;
+    font-size: 0.82rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+#theme-toggle:hover {
+    transform: translateY(-2px);
+    background: #a78bfa;
+}
+
+/* Light mode */
+
+body.light-mode {
+    --background: #f3edff;
+    --surface: #ffffff;
+    --white: #241638;
+    --text: #40364f;
+    --muted: #71677e;
+    --border: rgba(65, 40, 95, 0.2);
+
+    background-color: #f3edff;
+
+    background-image:
+        linear-gradient(
+            rgba(124, 58, 237, 0.06) 1px,
+            transparent 1px
+        ),
+        linear-gradient(
+            90deg,
+            rgba(124, 58, 237, 0.06) 1px,
+            transparent 1px
+        );
+}
+
+/* Hero section */
+
+body.light-mode #home.hero {
+    background: linear-gradient(
+        120deg,
+        #e9d5ff,
+        #f5eaff,
+        #dbeafe
+    );
+}
+
+body.light-mode #home .hero-content h1 {
+    color: #241638;
+}
+
+body.light-mode #home .hero-description {
+    color: #40364f;
+}
+
+body.light-mode #home .hero-nav {
+    background: rgba(255, 255, 255, 0.65);
+    border-color: rgba(65, 40, 95, 0.2);
+}
+
+body.light-mode #home .hero-nav a {
+    color: #35234e;
+}
+
+/* Content sections */
+
+body.light-mode .content-section {
+    background: linear-gradient(
+        145deg,
+        #ffffff,
+        #f5efff
+    );
+
+    border-color: #d8c5f5;
+}
+
+body.light-mode .section-title {
+    color: #35234e;
+}
+
+body.light-mode .content-section > p:not(.section-label) {
+    color: #40364f;
+}
+
+/* Project cards */
+
+body.light-mode .project-card {
+    background: linear-gradient(
+        145deg,
+        #ffffff,
+        #eee5ff
+    );
+
+    border-color: #d8c5f5;
+}
+
+body.light-mode .project-card h3 {
+    color: #35234e;
+}
+
+body.light-mode .project-card p {
+    color: #51465f;
+}
+
+/* Contact form */
+
+body.light-mode .contact-info h3,
+body.light-mode .contact-form label {
+    color: #35234e;
+}
+
+body.light-mode .contact-info p {
+    color: #40364f;
+}
+
+body.light-mode .contact-form input,
+body.light-mode .contact-form textarea {
+    background: #ffffff;
+    color: #241638;
+    border-color: #c9b5e8;
+}
+
+body.light-mode .contact-form input::placeholder,
+body.light-mode .contact-form textarea::placeholder {
+    color: #81748f;
+}
+
+/* Footer */
+
+body.light-mode .site-footer {
+    color: #51465f;
+}
+
+/* Skills */
+
+body.light-mode .skills-list li {
+    background: #eee5ff;
+    color: #35234e;
+    border-color: #d8c5f5;
+}
+
+/* Theme button in light mode */
+
+body.light-mode #theme-toggle {
+    background: #5b21b6;
+    color: white;
+}
