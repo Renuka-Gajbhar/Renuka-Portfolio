@@ -225,8 +225,7 @@ The `script.js` file contains reusable functions for:
 1. Form Validation – Checks user input and displays appropriate error messages.
 2. Dark Mode – Allows users to switch between light and dark themes.
 3. DOM Manipulation – Updates website content dynamically.
-4. Event Listeners – Handles user interactions.
-5. Local Storage – Saves the selected theme preference.
+
 
 ## Form Validation Logic
 
